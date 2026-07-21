@@ -195,17 +195,17 @@ Wählen Sie Ihren iFlow aus und kopieren Sie den **Endpoint** (Struktur: https:/
 
 ### Environment und Collection anlegen
 
-Importieren Sie die Collection und das Environment aus dem Ordner Samples](samples): 
+Importieren Sie die Collection und das Environment aus dem Ordner [Samples](samples): 
 
 [Postman Collection](samples/Trial_Integration_Suite.postman_collection.json)
+
 [Postman Environment](samples/Trial_Integration_Suite.postman_environment.json)
 
+<img width="1276" height="401" alt="image" src="https://github.com/user-attachments/assets/9c19738b-14ae-48ff-8b4b-215d04422513" />
 
-```text
-Integration Suite
-```
 
-Pflegen Sie folgende Variablen:
+
+Pflegen Sie folgende Variablen im Environment "Trial Integration Suite":
 
 | Variable | Wert |
 |----------|------|
