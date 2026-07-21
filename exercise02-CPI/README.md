@@ -6,6 +6,9 @@
 
 Ein HTTP-Request wird aus Postman an einen SAP Integration Suite iFlow gesendet und anschließend an einen Beeceptor Mock Server weitergeleitet.
 
+<img width="1568" height="519" alt="image" src="https://github.com/user-attachments/assets/d3ff209e-a539-47b7-928f-97824d779052" />
+
+
 ### Postman Login
 
 Melden Sie sich bei Postman an:
@@ -59,7 +62,7 @@ Add
 
 ## 3. Receiver konfigurieren
 
-Öffnen Sie die Beeceptor Website und erstellen Sie einen neuen Mock Server.
+Öffnen Sie die [Beeceptor Website](https://beeceptor.com/) und erstellen Sie einen neuen Mock Server.
 
 ### Beeceptor Servername
 
@@ -76,6 +79,9 @@ Edit
 ```
 
 Ziehen Sie vom **Message End** eine Verbindung zu einem neuen **Receiver**.
+
+<img width="1023" height="471" alt="image" src="https://github.com/user-attachments/assets/827529c8-4e59-4f10-954f-b1588c439100" />
+
 
 ### Receiver Adapter
 
@@ -99,6 +105,10 @@ Speichern Sie die Einstellungen.
 ## 4. Sender konfigurieren
 
 Ziehen Sie vom **Sender** eine Verbindung zum **Message Start Event**.
+
+<img width="1023" height="360" alt="image" src="https://github.com/user-attachments/assets/1f81f5e4-6c73-4fb8-94f2-c0fa53b22c42" />
+
+
 
 ### Sender Adapter
 
@@ -141,7 +151,9 @@ Services
 → Instances and Subscriptions
 ```
 
-Erstellen Sie eine neue Service Instanz.
+Erstellen Sie eine neue Service Instanz: 
+<img width="830" height="714" alt="image" src="https://github.com/user-attachments/assets/0772fc72-031c-477d-bd33-f7cb3ed4e55e" />
+
 
 Öffnen Sie die Instanz und wechseln Sie zu:
 
@@ -154,11 +166,11 @@ Klicken Sie auf:
 ```text
 Create
 ```
+Erstellen Sie den Service Key wie folgt: 
+<img width="627" height="665" alt="image" src="https://github.com/user-attachments/assets/afad1ca7-0a35-4f13-8c2c-ebdef92af820" />
 
-Laden Sie anschließend den erzeugten Service Key herunter.
 
-### Benötigte Informationen
-
+Laden Sie anschließend den erzeugten Service Key herunter oder kopieren Sie sich die Werte aus dem Service Key JSON.
 Die folgenden Werte werden später in Postman verwendet:
 
 - Client ID
