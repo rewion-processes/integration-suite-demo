@@ -1,0 +1,63 @@
+{
+  "info": {
+    "_postman_id": "731e5485-7474-4e58-a9d7-057183ac62d4",
+    "name": "GFU Integration Suite",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "15903449"
+  },
+  "item": [
+    {
+      "name": "Send Employees",
+      "request": {
+        "auth": {
+          "type": "oauth2",
+          "oauth2": [
+            {
+              "key": "clientSecret",
+              "value": "{{clientsecret}}",
+              "type": "string"
+            },
+            {
+              "key": "clientId",
+              "value": "{{clientid}}",
+              "type": "string"
+            },
+            {
+              "key": "accessTokenUrl",
+              "value": "{{tokenurl}}",
+              "type": "string"
+            },
+            {
+              "key": "grant_type",
+              "value": "client_credentials",
+              "type": "string"
+            },
+            {
+              "key": "addTokenTo",
+              "value": "header",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"employees\": [\r\n        {\r\n            \"employeeId\": \"1\",\r\n            \"employeeFirstName\": \"Marian\",\r\n            \"employeeLastName\": \"Kruse\",\r\n            \"employeeBirthday\": \"1999-10-31\",\r\n            \"employeeEmail\": \"marian.kruse@beispielunternehmen.de\",\r\n            \"employeePhone\": \"+49 171 1234567\",\r\n            \"jobTitle\": \"Softwareentwickler\",\r\n            \"department\": \"IT / Entwicklung\",\r\n            \"managerId\": \"42\",\r\n            \"managerName\": \"Dr. Sarah Schmidt\",\r\n            \"hireDate\": \"2023-01-15\",\r\n            \"employmentStatus\": \"Festangestellt\",\r\n            \"salaryType\": \"Vollzeit\",\r\n            \"location\": \"Berlin / Hauptsitz\",\r\n            \"isManager\": false,\r\n            \"isActive\": true,\r\n            \"lastPromotionDate\": \"2024-03-01\",\r\n            \"vacationDaysRemaining\": 25,\r\n            \"costCenter\": \"C101\"\r\n        },\r\n        {\r\n            \"employeeId\": \"2\",\r\n            \"employeeFirstName\": \"Anna\",\r\n            \"employeeLastName\": \"Müller\",\r\n            \"employeeBirthday\": \"1985-05-12\",\r\n            \"employeeEmail\": \"anna.mueller@beispielunternehmen.de\",\r\n            \"employeePhone\": \"+49 160 9876543\",\r\n            \"jobTitle\": \"Marketing Managerin\",\r\n            \"department\": \"Marketing\",\r\n            \"managerId\": \"43\",\r\n            \"managerName\": \"Thomas Becker\",\r\n            \"hireDate\": \"2018-07-01\",\r\n            \"employmentStatus\": \"Festangestellt\",\r\n            \"salaryType\": \"Vollzeit\",\r\n            \"location\": \"München / Niederlassung Süd\",\r\n            \"isManager\": true,\r\n            \"isActive\": true,\r\n            \"lastPromotionDate\": \"2022-11-01\",\r\n            \"vacationDaysRemaining\": 18,\r\n            \"costCenter\": \"C203\"\r\n        },\r\n        {\r\n            \"employeeId\": \"3\",\r\n            \"employeeFirstName\": \"Jonas\",\r\n            \"employeeLastName\": \"Wagner\",\r\n            \"employeeBirthday\": \"1995-02-28\",\r\n            \"employeeEmail\": \"jonas.wagner@beispielunternehmen.de\",\r\n            \"employeePhone\": \"+49 152 3456789\",\r\n            \"jobTitle\": \"Junior Controller\",\r\n            \"department\": \"Finanzen\",\r\n            \"managerId\": \"42\",\r\n            \"managerName\": \"Dr. Sarah Schmidt\",\r\n            \"hireDate\": \"2024-06-01\",\r\n            \"employmentStatus\": \"Probezeit\",\r\n            \"salaryType\": \"Teilzeit (80%)\",\r\n            \"location\": \"Berlin / Hauptsitz\",\r\n            \"isManager\": false,\r\n            \"isActive\": true,\r\n            \"lastPromotionDate\": null,\r\n            \"vacationDaysRemaining\": 12,\r\n            \"costCenter\": \"C305\"\r\n        }\r\n    ]\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{host}}{{endpoint}}",
+          "host": [
+            "{{host}}{{endpoint}}"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
