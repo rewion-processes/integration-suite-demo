@@ -18,6 +18,4 @@ Nach Abschluss dieses Trainings verfügen Sie über:
 - Erste Erfahrungen mit Monitoring und Fehlersuche
 - Grundlagen für API Management und Event Mesh
 
----
-
 
