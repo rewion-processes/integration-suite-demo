@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="images/rewion_banner.jpg" alt="Rewion SAP Integration Suite Training">
+</p>
+
 # SAP Integration Suite Training
 
 ## Übersicht
