@@ -205,7 +205,7 @@ Importieren Sie die Collection und das Environment aus dem Ordner [Samples](samp
 
 
 
-Pflegen Sie folgende Variablen im Environment "Trial Integration Suite":
+Pflegen Sie folgende Variablen im Environment "Trial Integration Suite Environment":
 
 | Variable | Wert |
 |----------|------|
@@ -225,19 +225,22 @@ STRG + S
 
 ## 7. Technischen Durchstich testen
 
-Öffnen Sie in Postman:
+In Postman:
 
 ```text
 Collections
-→ Deep Dive BTP
+→ Trial Integration Suite Collection
 → Send Employees
 ```
 
 Wählen Sie das Environment:
 
 ```text
-Integration Suite
+Trial Integration Suite Environment
 ```
+
+<img width="985" height="314" alt="image" src="https://github.com/user-attachments/assets/ff482982-77d9-4540-af19-545dd9c9a812" />
+
 
 ### OAuth Token beziehen
 
