@@ -6,7 +6,7 @@ Falls Sie noch keinen SAP BTP Trial Account besitzen, erstellen Sie diesen zunä
 
 ## Trial Account anlegen
 
-1. Öffnen Sie die SAP BTP Trial Registrierungsseite.
+1. [Öffnen Sie die SAP BTP Trial Registrierungsseite.](https://www.sap.com/products/technology-platform/trial.html)
 2. Registrieren Sie sich mit Ihrer E-Mail-Adresse.
 3. Bestätigen Sie Ihre E-Mail-Adresse.
 4. Melden Sie sich im SAP BTP Cockpit an.
