@@ -191,11 +191,15 @@ Monitor
 → Started
 ```
 
-Wählen Sie Ihren iFlow aus und kopieren Sie den Endpoint (Struktur: https://<<your-environment>>.hana.ondemand.com/http/send-employees)
+Wählen Sie Ihren iFlow aus und kopieren Sie den **Endpoint** (Struktur: https://<<your-environment>>.hana.ondemand.com/http/send-employees)
 
-### Environment anlegen
+### Environment und Collection anlegen
 
-Erstellen Sie in Postman ein neues Environment:
+Importieren Sie die Collection und das Environment aus dem Ordner Samples](samples): 
+
+[Postman Collection](samples/Trial_Integration_Suite.postman_collection.json)
+[Postman Environment](samples/Trial_Integration_Suite.postman_environment.json)
+
 
 ```text
 Integration Suite
