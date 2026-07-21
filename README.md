@@ -1,6 +1,6 @@
 # SAP Integration Suite Training
 
-## 🚀 Übersicht
+## Übersicht
 
 Willkommen zum Rewion SAP Integration Suite Training.
 
