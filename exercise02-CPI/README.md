@@ -244,12 +244,15 @@ Trial Integration Suite Environment
 
 ### OAuth Token beziehen
 
-Navigieren Sie zu:
+Navigieren Sie im "Send Employees" Tab zu:
 
 ```text
 Authorization
 → Get New Access Token
 ```
+
+<img width="1106" height="524" alt="image" src="https://github.com/user-attachments/assets/5c262c62-1740-4dc7-b4ee-cb9cafd04fb0" />
+
 
 Anschließend:
 
@@ -263,9 +266,9 @@ und anschließend:
 Use Token
 ```
 
-### Test ausführen
+### Request ausführen
 
-Klicken Sie auf:
+Klicken Sie oben rechts auf:
 
 ```text
 Send
