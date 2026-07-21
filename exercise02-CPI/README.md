@@ -167,6 +167,7 @@ Klicken Sie auf:
 Create
 ```
 Erstellen Sie den Service Key wie folgt: 
+
 <img width="627" height="665" alt="image" src="https://github.com/user-attachments/assets/afad1ca7-0a35-4f13-8c2c-ebdef92af820" />
 
 
@@ -190,7 +191,7 @@ Monitor
 → Started
 ```
 
-Wählen Sie Ihren iFlow aus und kopieren Sie den Endpoint.
+Wählen Sie Ihren iFlow aus und kopieren Sie den Endpoint (Struktur: https://<<your-environment>>.hana.ondemand.com/http/send-employees)
 
 ### Environment anlegen
 
