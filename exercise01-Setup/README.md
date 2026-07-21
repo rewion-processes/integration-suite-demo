@@ -140,6 +140,48 @@ Klicken Sie anschließend auf **Activate**.
 
 ---
 
+## 7. Rollen vergeben
+
+Bevor mit den Übungen begonnen werden kann, müssen die erforderlichen Berechtigungen vergeben werden.
+
+Navigieren Sie im SAP BTP Cockpit zu:
+
+```text
+Security
+→ Users
+```
+
+Öffnen Sie Ihren Benutzer und klicken Sie auf:
+
+```text
+Assign Role Collections
+```
+
+Suchen Sie nach:
+
+```text
+PI
+```
+
+Wählen Sie folgende Role Collections aus:
+
+✅ PI_Administrator
+
+✅ PI_Business_Expert
+
+✅ PI_Integration_Developer
+
+Klicken Sie anschließend auf:
+
+```text
+Assign Role Collection
+```
+
+> Hinweis:
+> Nach der Rollenzuweisung sollten Sie sich von der SAP Integration Suite abmelden und erneut anmelden, damit die Berechtigungen wirksam werden.
+
+---
+
 Nach Abschluss dieses Setups verfügen Sie über:
 
 - Eine vollständig eingerichtete SAP BTP Trial Umgebung
